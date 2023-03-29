@@ -1,11 +1,5 @@
-.cintaAzul {
-  display: block;
-  background-color: aqua;
-  padding: 0.5rem;
-  font-size: 1.8rem;
-}
 .logo {
-  background-color: aquamarine;
+  background-color: #9793bf;
   height: 45vh;
   text-align: center;
   margin-bottom: 0;
@@ -15,6 +9,9 @@
   width: 100%;
   height: 35vh;
 }
+.titulo {
+  background-color: #9793bf;
+}
 
 .topicSection {
   box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
@@ -22,11 +19,21 @@
   overflow: hidden;
   transition: all 0.4s;
   margin: 2rem;
+  margin-top: 7rem;
 }
 
 .topicImg {
   width: 100%;
 }
+.textoRespo {
+  display: none;
+  font-size: 87%;
+}
+.textoRespo2 {
+  display: none;
+  font-size: 92%;
+}
+
 .formulario {
   display: flex;
   margin: auto 25%;
@@ -45,6 +52,9 @@
 }
 .presentacion {
   margin-bottom: 4rem;
+}
+.three--colsSocial {
+  grid-template-columns: repeat(3, 1fr);
 }
 .socialLogo {
   width: auto;

@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .img-responsive {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  .three--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .textoRespo {
+    display: block;
+  }
+  .formulario {
+    max-width: 65vw;
+  }
+}
+
+@media (max-width: 455px) {
+  .img-responsive {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .three--cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .textoRespo {
+    display: none;
+  }
+  .textoRespo2 {
+    display: block;
+  }
+}

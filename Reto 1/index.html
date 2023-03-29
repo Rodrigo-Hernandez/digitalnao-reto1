@@ -6,54 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/specific.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <title>Asesoría financiera</title>
   </head>
   <body>
     <div class="container">
       <div class="logo">
-        <img class="logoImg" src="media/logo.svg" />
-        <h1>Asesoramiento y guía financiera</h1>
+        <img class="logoImg img-fluid img-responsive" src="media/logo.svg" />
+        <h1 class="text-center titulo">Asesoramiento y guía financiera</h1>
       </div>
 
-      <div class="container cintaAzul">
-        <p>Si quieres mejorar tus finanzas has llegado al sitio correcto</p>
-      </div>
       <div class="grid three--cols container">
-        <div class="topicSection">
+        <div class="topicSection p-4 text-center shadow">
           <a href="#"
             ><img src="media/invest.svg" class="topicImg" alt="Inversion" />
 
-            <h4>Inversiones</h4></a
+            <h4 class="my-3">Inversiones</h4></a
           >
+          <div class="textoRespo2 topicSection p-2 text-center">
+            <p>
+              Si deseas conocer más acerca de como hacer crecer tu dinero y que
+              este trabaje por ti, esta sección podría onteresarte. Aquí
+              aprenderás sobre inversiones, qué son y como funcionan
+            </p>
+          </div>
         </div>
-        <div class="topicSection">
+        <div class="textoRespo topicSection p-4 text-center">
+          <p>
+            Si deseas conocer más acerca de como hacer crecer tu dinero y que
+            este trabaje por ti, esta sección podría onteresarte. Aquí
+            aprenderás sobre inversiones, qué son y como funcionan
+          </p>
+        </div>
+        <div class="textoRespo topicSection p-4 text-center">
+          <p>
+            Tus ahorros pueden serte utilies si sabes bien como hacerlo. Aquí te
+            explico como puedes ahorrar de manera efectiva garantizandote
+            rendientos y hasta un plan de retiro que te permita vivir de manera
+            bastante holgada
+          </p>
+        </div>
+        <div class="topicSection p-4 text-center shadow">
           <a href="#"
             ><img src="media/saveVault.svg" class="topicImg" alt="Ahorros" />
-            <h4>Ahorros</h4></a
+            <h4 class="my-3">Ahorros</h4></a
           >
+          <div class="textoRespo2 topicSection p-2 text-center">
+            <p>
+              Tus ahorros pueden serte utilies si sabes bien como hacerlo. Aquí
+              te explico como puedes ahorrar de manera efectiva garantizandote
+              rendientos y hasta un plan de retiro que te permita vivir de
+              manera bastante holgada
+            </p>
+          </div>
         </div>
-        <div class="topicSection">
+
+        <div class="topicSection p-4 text-center shadow">
           <a href="#"
             ><img src="media/crypto.svg" class="topicImg" alt="Crypto" />
 
-            <h4>Crypto</h4></a
+            <h4 class="my-3">Crypto</h4></a
           >
+          <div class="textoRespo2 topicSection p-2 text-center">
+            <p>
+              ¿NFT? ¿Ethereum? ¿Bitcoin? ¿Estos nombres te suenan familiares
+              pero no entiendes del todo a que se refieren? Yo te explico que
+              son las cryptomonedas, como adquirirlas, cuales son los mejores
+              metodos de inversión en esta materia y como sacarle provecho a
+              esta revolución digital.
+            </p>
+          </div>
+        </div>
+        <div class="textoRespo topicSection p-4 text-center">
+          <p>
+            ¿NFT? ¿Ethereum? ¿Bitcoin? ¿Estos nombres te suenan familiares pero
+            no entiendes del todo a que se refieren? Yo te explico que son las
+            cryptomonedas, como adquirirlas, cuales son los mejores metodos de
+            inversión en esta materia y como sacarle provecho a esta revolución
+            digital.
+          </p>
         </div>
       </div>
-      <div class="formulario">
+      <div class="formulario bg-light p-5 mb-3 shadow">
         <form action="">
-          <strong>Newsletter</strong><br /><br />
-          <label for="nombre">Nombre</label><br />
-          <input type="text" name="nombre" id="nombre" /><br /><br />
-          <label for="apellido">Apellido</label><br />
-          <input type="text" name="apellido id=" apellido /><br /><br />
-          <label for="correo">E-mail</label><br />
-          <input type="email" name="correo" id="correo" /><br /><br /><br />
-          <button type="submit">Suscribirse</button>
+          <strong class="d-block text-center mb-3">Newsletter</strong
+          ><br /><br />
+          <div class="form-group">
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="nombre" id="nombre" /><br /><br />
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido</label><br />
+            <input type="text" name="apellido id=" apellido /><br /><br />
+          </div>
+          <div class="form-group">
+            <label for="correo">E-mail</label><br />
+            <input type="email" name="correo" id="correo" /><br /><br /><br />
+          </div>
+          <button type="submit" class="btn btn-primary">Suscribirse</button>
         </form>
       </div>
-      <div class="infoPersonal container">
-        <img src="media/photo.png" class="photoCaroline" alt="Caroline Sada" />
+      <div class="infoPersonal bg-light p-4 mb-3 shadow">
+        <img
+          src="media/photo.png"
+          class="photoCaroline img-responsive"
+          alt="Caroline Sada"
+        />
         <p class="presentacion">
           Licenciada en administración y dirección de empresas con experiencia
           en el análisis financiero. Avocada en el apoyo, asesoramiento y
@@ -61,7 +123,7 @@
           personal, brindando apoyo y asesoría principalmente en plataformas
           digitales.
         </p>
-        <div class="grid three--cols">
+        <div class="grid three--colsSocial">
           <div class="social">
             <img
               src="media/twitter-logo.svg"
